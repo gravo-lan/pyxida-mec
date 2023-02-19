@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/lulo-clean');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+  
+body {
+    font-family: 'Questrial';
+    background-color: F2F2F2;
+    /* We need the background landing page image here instead of the background-color*/
+    text-align: center;
+}
+  
+ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: transparent;
+}
+
+li {
+  	float: right;
+  	border-width: 0px;
+}
+
+	li:last-child {
+  	border-right: none;
+}
+
+li a {
+  	display: block;
+  	color: ACA7A6;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+    transition: all .25s ease-in-out;
+}
+  
+li a:hover {
+  	display: block;
+  	color: 3F437F;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	}
+
+.active {
+  	color: #2E315D;
+	}
+  
+.title {
+  	color: #2E315D;
+    font-family: 'Lulo Clean', sans-serif;
+    padding: 40% 0% 0% 0%;
+    transition: all .5s ease-in-out;
+}
+  
+.title:hover {
+  	transform: scale(1.1) perspective(10px);
+}
+  
+.build {
+  	color: #ACA7A6;
+}
+  
+.button {
+	background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+  
+.button:hover {
+  	background-color: transparent;
+    transition-delay: 100ms;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
