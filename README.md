@@ -11,6 +11,7 @@ Source code of MEC Pyxida Compass Website
   - React Scripts
 - [SurveyJS](https://surveyjs.io/)
 - [Web Vitals](https://web.dev/vitals/)
+- [GitHub Pages](https://pages.github.com/) (Optional)
 
 ## Running
 #### Clone the repo or grab the release (stripped source code)
@@ -22,6 +23,19 @@ cd pyxida-mec-master
 ```shell
 npm install
 npm start
+```
+## Building
+#### Clone the repo or grab the release (stripped source code)
+```shell
+git clone https://github.com/gravo-lan/pyxida-mec.git
+cd pyxida-mec-master
+```
+
+#### Build and Deploy the website (gh-pages)
+```shell
+npm install
+git remote add origin https://github.com/[USERNAME]/[REPO]
+npm run deploy
 ```
 
 ## Replit
