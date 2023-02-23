@@ -9,7 +9,7 @@ Source code of MEC Pyxida Compass Website
   - ReactDOM
   - ReactStrap
   - React Scripts
-- [SurveyJS](https://surveyjs.io/)
+- [SurveyJS](https://surveyjs.io/) (React Version)
 - [Web Vitals](https://web.dev/vitals/)
 - [GitHub Pages](https://pages.github.com/) (Optional)
 
@@ -34,10 +34,10 @@ cd pyxida-mec-master
 #### Build and Deploy the website (gh-pages)
 ```shell
 npm install
-git remote add origin https://github.com/[USERNAME]/[REPO]
+git remote add origin https://github.com/[USERNAME]/[REPO].git
 npm run deploy
 ```
 
 ## Replit
 #### Instructions: ####
-[Replit Docs](https://docs.replit.com/category/using-git-on-replit) (be careful, unless you have repl premium, all repl projects are public.)
+[Replit Documentation](https://docs.replit.com/category/using-git-on-replit) (be careful, unless you have repl premium, all repl projects are public.)
