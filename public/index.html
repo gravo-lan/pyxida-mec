@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="unpkg.com/survey-react/survey.min.css" type="text/css" rel="stylesheet">
     
     <title>Pyxida Compass</title>
+    <script>
+        document.getElementById('root').style.display = "none";
+        function showDiv() {
+            document.getElementById('root').style.display = "block";
+        }
+    </script>
 </head>
 
 <body>
+    <noscript>You need to enable JavaScript to run this website.</noscript>
     <ul>
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
@@ -24,7 +31,8 @@
     <h1 class = "title" >PYXIDA</h1>
     <p class = "orient"><i>"Determining Orientations."</i></p>
     <p class = "build">Version 0.0.1 :: Canary Build</p>
-    <button class = button>Get Started!</button>
+    <button class = button onclick="showDiv()">Get Started!</button>
 </div>
+<div id="root" style="display:none"></div>
 </body>
 </html>
