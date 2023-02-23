@@ -16,9 +16,14 @@ Source code of MEC Pyxida Compass Website
 #### Clone the repo or grab the release (stripped source code)
 ```shell
 git clone https://github.com/gravo-lan/pyxida-mec.git
+cd pyxida-mec-master
 ```
 #### Run the website locally
 ```shell
 npm install
 npm start
 ```
+
+## Replit
+#### Instructions: ####
+[Replit Docs](https://docs.replit.com/category/using-git-on-replit) (be careful, unless you have repl premium, all repl projects are public.)
