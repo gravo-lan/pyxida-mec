@@ -7,6 +7,6 @@ updates:
       time: "08:00"
       timezone: "Asia/Hong_Kong"
     labels:
-      - "npm dependencies"
+      - "dependencies"
     reviewers:
       - "gravo-lan"
