@@ -1,5 +1,5 @@
 {
-  "name": "Pyxida",
+  "name": "pyxida",
   "version": "0.0.1",
   "homepage": "https://gravo-lan.github.io/pyxida-mec",
   "private": "true",
@@ -19,7 +19,6 @@
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.1.6",
     "server": "^1.0.38",
-    "survey-core": "^1.9.75",
     "survey-react": "^1.9.75",
     "surveyjs-widgets": "^1.9.75",
     "typescript": "^4.9.5",

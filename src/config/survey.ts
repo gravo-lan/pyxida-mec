@@ -11,53 +11,31 @@ const defaultSurveyJSON = {
             "title": "How old are you?",
             "isRequired": true,
             "validators": [
-            {
-            "type": "numeric",
-            "text": "User cannot be less than 11 years old or more than 26 years old. ",
-            "minValue": 11,
-            "maxValue": 26
-            }
+                {
+                "type": "numeric",
+                "text": "User cannot be less than 11 years old or more than 26 years old. ",
+                "minValue": 11,
+                "maxValue": 26
+                }
             ]
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question2",
-            "title": "How much do you care about the reputation of your community college? (1 for very little, 5 for a lot)",
+            "title": "How much do you care about the reputation of your community college?",
             "isRequired": true
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question4",
             "title": "What is your current financial situation?",
             "isRequired": true
         },
         {
-            "type": "radiogroup",
+            "type": "nouislider",
             "name": "question3",
             "title": "What would be your estimated amount of financial aid needed?",
             "isRequired": true,
-            "choices": [
-            {
-            "value": "Item 1",
-            "text": "1-25%"
-            },
-            {
-            "value": "Item 2",
-            "text": "26-50%"
-            },
-            {
-            "value": "Item 3",
-            "text": "51-75%"
-            },
-            {
-            "value": "Item 4",
-            "text": "76-100%"
-            },
-            {
-            "value": "Item 5",
-            "text": "I don't need financial aid"
-            }
-            ]
         },
         {
             "type": "radiogroup",
@@ -268,15 +246,15 @@ const defaultSurveyJSON = {
         "name": "page2",
         "elements": [
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question11",
-            "title": "Do you enjoy school? (1 for strongly dislike, 5 for strongly like)",
+            "title": "Do you enjoy school?",
             "isRequired": true
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question12",
-            "title": "Do you frequently complete your academic work on time?                            (1 for never, 5 for always)",
+            "title": "Do you frequently complete your academic work on time?",
             "isRequired": true
         },
         {
@@ -331,21 +309,21 @@ const defaultSurveyJSON = {
         "name": "page3",
         "elements": [
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question19",
-            "title": "How would you like your social environment?                                                           (1 for Casual and Party Oriented, 5 for Academically Oriented)",
+            "title": "How social would you prefer your environment to be? (Low for casual and high for academic)",
             "isRequired": true
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question20",
-            "title": "Do you prefer a more collaborative or a more competitive working environment? (1 for More Collaborative, 5 for More Competitive)",
+            "title": "How competitive would you prefer your environment to be?",
             "isRequired": true
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question21",
-            "title": "Do you prefer lectures or discussions?                                                                            (1 for More Lectures, 5 for More Discussions)",
+            "title": "Do you prefer lectures or discussions? (Low for more lectures, high for more discussion)",
             "isRequired": true
         },
         {
@@ -381,15 +359,15 @@ const defaultSurveyJSON = {
             "isRequired": true
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question25",
-            "title": "Do you prefer a large or intimate student body environment?                     (1 for larger, 5 for more intimate)",
+            "title": "How large would you prefer your student body environment to be?",
             "isRequired": true
         },
         {
             "type": "rating",
             "name": "question26",
-            "title": "Do you prefer a more social environment or more private environment? (1 for more social, 5 for more private)",
+            "title": "How social would you prefer your environment to be?",
             "isRequired": true
         },
         {
@@ -419,9 +397,9 @@ const defaultSurveyJSON = {
             ]
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question29",
-            "title": "How much do you value campus food?                                                                           (1 for valuing least, 5 for valuing most)",
+            "title": "How much do you value campus food?",
             "isRequired": true
         },
         {
@@ -481,9 +459,9 @@ const defaultSurveyJSON = {
             ]
         },
         {
-            "type": "rating",
+            "type": "nouislider",
             "name": "question31",
-            "title": "What would be the optimal student to teacher ratio for you?                       (1 for extremely high, 5 for extremely low)",
+            "title": "What would be the optimal student to teacher ratio for you?",
             "isRequired": true
         },
         {
