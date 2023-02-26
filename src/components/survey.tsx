@@ -1,6 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Spinner } from 'reactstrap';
 import * as Survey from 'survey-react';
+import * as SurveyCore from "survey-core";
+import * as widgets from "surveyjs-widgets";
+import noUiSlider from 'nouislider';
+
+import "jquery-ui/themes/base/all.css";
+import "nouislider/dist/nouislider.css";
+
+widgets.nouislider(Survey);
 
 export interface ISurveyProps {
     css: any;
