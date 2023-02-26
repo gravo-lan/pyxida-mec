@@ -3,4 +3,10 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
+      time: "08:00"
+      timezone: "Asia/Hong_Kong"
+    labels:
+      - "npm dependencies"
+    reviewers:
+      - "gravo-lan"
