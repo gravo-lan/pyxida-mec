@@ -10,6 +10,8 @@ Source code of MEC Pyxida Compass Website
   - ReactStrap
   - React Scripts
 - [SurveyJS](https://surveyjs.io/) (React Version)
+  - SurveyJS Widgets
+  - NoUISlider
 - [Web Vitals](https://web.dev/vitals/)
 - [GitHub Pages](https://pages.github.com/) (Optional)
 
