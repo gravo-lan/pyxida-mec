@@ -1,6 +1,6 @@
 const defaultSurveyJSON = {
     "title": "Pyxida Survey",
-    "logoPosition": "right",
+    "showProgressBar": "top",
     "pages": [
         {
         "name": "page1",
