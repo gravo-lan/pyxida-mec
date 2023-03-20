@@ -19,7 +19,7 @@
     "reactstrap": "^9.1.6",
     "server": "^1.0.38",
     "survey-react": "^1.9.77",
-    "surveyjs-widgets": "^1.9.77",
+    "surveyjs-widgets": "^1.9.78",
     "typescript": "^4.9.5",
     "web-vitals": "^3.3.0"
   },
