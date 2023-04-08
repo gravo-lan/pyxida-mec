@@ -21,7 +21,7 @@
     "survey-react": "^1.9.81",
     "surveyjs-widgets": "^1.9.80",
     "typescript": "^5.0.2",
-    "web-vitals": "^3.3.0"
+    "web-vitals": "^3.3.1"
   },
   "scripts": {
     "predeploy": "npm run build",
