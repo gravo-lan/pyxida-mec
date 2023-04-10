@@ -3,13 +3,20 @@
 <html>
 <head>
     <link rel="manifest" href="./manifest.json" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/survey-react/1.9.74/survey.react.min.js"></script>
     <link href="https://unpkg.com/survey-react@1.9.74/defaultV2.css" type="text/css" rel="stylesheet"/>
     <script src="https://unpkg.com/survey-react@1.9.74/survey.react.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../src/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous">
     <link rel="stylesheet" href="unpkg.com/survey-react/survey.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <title>Pyxida Compass</title>
     <script>
@@ -33,12 +40,21 @@
 <div>
     <h1 class = "title" >PYXIDA</h1>
     <p class = "orient"><i>"Determining Orientations."</i></p>
-    <p class = "build">Version 0.0.1 :: Canary Build</p>
+    <p class = "build">Version 0.1.0 :: Alpha Build</p>
     <button id = "startButton" class = button onclick="startSurvey()">Get Started!</button>
 </div>
 
 <div id='cover' class="cover" style="opacity: 0%; z-index: -1;"></div>
 
 <div id="root" style="display:none" class="pyxsurvey"></div>
+
+<div class="d-flex" id="cookieconsent">
+    <div class="card p-3 cookie"><span>We use third party cookies to personalize content, ads and analyze site traffic.<br></span>
+        <div class="mt-4 text-right">
+            <span class="mr-3 decline" onclick="window.history.go(-1); return false;">Decline</span>
+            <button class="btn btn-light btn-sm" type="button" onclick='document.getElementById("cookieconsent").setAttribute("style","opacity:0; -moz-opacity:0; filter:alpha(opacity=0); z-index:-1;"); return true;'>Allow cookies</button></div>
+    </div>
+</div>
+
 </body>
 </html>

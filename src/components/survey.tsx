@@ -20,7 +20,7 @@ export interface ISurveyProps {
 }
 
 const SurveyComponent: React.FunctionComponent<ISurveyProps> = props => {
-    const { css, data, json, onComplete } = props;
+    const { css, data, json, onComplete, onPartialSend, showPreviewBeforeComplete, sendResultOnPageNext } = props;
 
     const [loading, setLoading] = useState<boolean>(true);
 
@@ -38,9 +38,9 @@ const SurveyComponent: React.FunctionComponent<ISurveyProps> = props => {
             data={data}
             json={json}
             onComplete={onComplete}
-            onPartialSend={props.onPartialSend}
-            showPreviewBeforeComplete={props.showPreviewBeforeComplete}
-            sendResultOnPageNext={props.sendResultOnPageNext}
+            onPartialSend={onPartialSend}
+            showPreviewBeforeComplete={showPreviewBeforeComplete}
+            sendResultOnPageNext={sendResultOnPageNext}
         />
     );
 }
