@@ -27,6 +27,8 @@ const Application: React.FunctionComponent<IApplicationProps> = props => {
                             onComplete={(sender: any, options:any) => {
                                 console.log(JSON.stringify(sender.data),null,3);
                                 saveSurveyData(sender);
+                                document.getElementById("root")!.style.display = 'none';
+                                document.getElementById("cover")!.setAttribute("style","opacity:0; -moz-opacity:0; filter:alpha(opacity=0); z-index: -1;");
                             }}
                             onPartialSend={(sender: any) => {
                                 saveSurveyData(sender);

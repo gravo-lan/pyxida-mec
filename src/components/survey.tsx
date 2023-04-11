@@ -17,6 +17,7 @@ export interface ISurveyProps {
     onPartialSend: (survey: any) => void;
     showPreviewBeforeComplete: any;
     sendResultOnPageNext: any;
+    currentPageNo?: number;
 }
 
 const SurveyComponent: React.FunctionComponent<ISurveyProps> = props => {

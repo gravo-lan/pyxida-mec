@@ -20,6 +20,9 @@
     
     <title>Pyxida Compass</title>
     <script>
+        if (localStorage.getItem("survey_student_pyx") != "undefined") {
+            document.getElementById('startButton').style.display = "none"
+        }
         document.getElementById('root').style.display = "none";
         function startSurvey() {
             document.getElementById('root').style.display = "block";
