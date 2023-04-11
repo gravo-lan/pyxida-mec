@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pyxida-mec/static/css/main.cb59f255.css",
-    "main.js": "/pyxida-mec/static/js/main.1cf65fa7.js",
+    "main.css": "/pyxida-mec/static/css/main.b363ec65.css",
+    "main.js": "/pyxida-mec/static/js/main.139e136b.js",
     "static/js/496.3051d809.chunk.js": "/pyxida-mec/static/js/496.3051d809.chunk.js",
     "index.html": "/pyxida-mec/index.html",
-    "main.cb59f255.css.map": "/pyxida-mec/static/css/main.cb59f255.css.map",
-    "main.1cf65fa7.js.map": "/pyxida-mec/static/js/main.1cf65fa7.js.map",
+    "main.b363ec65.css.map": "/pyxida-mec/static/css/main.b363ec65.css.map",
+    "main.139e136b.js.map": "/pyxida-mec/static/js/main.139e136b.js.map",
     "496.3051d809.chunk.js.map": "/pyxida-mec/static/js/496.3051d809.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb59f255.css",
-    "static/js/main.1cf65fa7.js"
+    "static/css/main.b363ec65.css",
+    "static/js/main.139e136b.js"
   ]
 }
